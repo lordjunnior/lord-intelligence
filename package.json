@@ -1,0 +1,35 @@
+{
+  "name": "lord-intelligence",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Consulte CNPJ, quadro societário, SICAF e contratos federais por órgão. Receba sinais de atenção, fontes oficiais e um relatório pronto para imprimir.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "dev:vercel": "vercel dev"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.4",
+    "@tanstack/react-router": "1.170.41",
+    "@tanstack/react-start": "1.168.60",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.575.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.5.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "tailwindcss": "^4.2.1",
+    "tw-animate-css": "^1.3.4",
+    "vite": "8.1.5",
+    "typescript": "^5.8.3",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.5"
+  }
+}
